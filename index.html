@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+    <div class="image">
+        <img src="https://picsum.photos/id/237/1000/500" alt="">
+    </div>
+    <div class="image">
+        <img src="https://picsum.photos/id/238/1000/500" alt="">
+    </div>
+    <div class="image">
+        <img src="https://picsum.photos/id/239/1000/500" alt="">
+    </div>
+    <div class="image">
+        <img src="https://picsum.photos/id/233/1000/500" alt="">
+    </div>
+    <div class="image">
+        <img src="https://picsum.photos/id/247/1000/500" alt="">
+    </div>
+    <div class="image">
+        <img src="https://picsum.photos/id/269/1000/500" alt="">
+    </div>
+    <div class="button">
+        <a onclick="nextimg(-1)" class ="prev">&#10094;</a>
+        <a onclick="nextimg(1)" class="next">&#10095;</a>
+    </div>
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+ </div>
+ <script src="app.js"></script>
+</body>
+</html> 
